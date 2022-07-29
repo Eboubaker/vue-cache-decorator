@@ -1,6 +1,6 @@
 {
   "name": "vue-cache-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "caching the data of your vue component made easy",
   "main": "src/index.ts",
   "author": "Eboubaker Bekkouche <eboubakkar@gmail.com>",

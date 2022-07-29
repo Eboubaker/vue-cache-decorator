@@ -50,7 +50,7 @@ export default class Table extends Vue {
     
     created() {
         this.filter = JSON.parse(localStorage.getItem('Table-[filter]'))
-        this.$watch('Table-[filter]', {
+        this.$watch('filter', {
             handler: (newValue) => {
                 localStorage.setItem('Table-[filter]', JSON.stringify(newValue))
             },
